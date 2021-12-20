@@ -1,0 +1,4 @@
+Jobs:
+  on run:
+  - main
+   on pull: main.rf
