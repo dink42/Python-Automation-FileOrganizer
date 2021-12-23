@@ -1,4 +1,4 @@
 Jobs:
-  on run:
+  on run: 'main.rf'
   - main
-   on pull: main.rf
+   on pull: 'main.rf'
