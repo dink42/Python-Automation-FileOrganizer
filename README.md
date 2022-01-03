@@ -1,5 +1,5 @@
-# how-to-die--*irony*
-## Buss-Codin
+# Organize files, I found this very useful and fun!
+## Hope this give some inspiration, there are alot of turtorials out there!
 - ---
-+ Did on phone while on buss. Had a bad day and bad creativity :D
++ Did this because I wan't to dig deeper what python is especially good and easy, fast to do! And things you can use for real,
 + If you have any suggestive charges to build on in glad!
