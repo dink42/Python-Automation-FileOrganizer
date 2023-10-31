@@ -1,3 +1,5 @@
+[![Bandit](https://github.com/dink42/Python-Automation/actions/workflows/bandit.yml/badge.svg)](https://github.com/dink42/Python-Automation/actions/workflows/bandit.yml)
+
 # Organize files, I found this very useful and fun!
 ## Hope this give some inspiration, there are alot of turtorials out there!
 - ---
