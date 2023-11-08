@@ -1,18 +1,24 @@
 import os
 from pathlib import Path
 SUBDIRECTORIES = {
-    "DOCUMENTS": ['.pdf','.rtf','.txt'],
-    "AUDIO": ['.m4a','.m4b','.mp3'],
-    "VIDEOS": ['.mov','.avi','.mp4'],
-    "IMAGES": ['.jpg','.jpeg','.png']
+    "DOCUMENTS": ['.pdf', '.rtf', '.txt', '.docx'],
+    "AUDIO": ['.m4a', '.m4b', '.mp3'],
+    "VIDEOS": ['.mov', '.avi', '.mp4'],
+    "IMAGES": ['.jpg', '.jpeg', '.png'],
+    "EXCECUTABLES": ['.exe', '.zip', '.msi', '.gz']
 }
+
+
 def pickDirectory(value):
     for category, suffixes in SUBDIRECTORIES.items():
         for suffix in suffixes:
             if suffix == value:
                 return category
     return 'MISC'
+
+
 print(pickDirectory('.pdf'))
+
 
 def organizeDirectory():
     for item in os.scandir():
@@ -25,5 +31,6 @@ def organizeDirectory():
         if directoryPath.is_dir() != True:
             directoryPath.mkdir()
         filePath.rename(directoryPath.joinpath(filePath))
+
 
 organizeDirectory()
