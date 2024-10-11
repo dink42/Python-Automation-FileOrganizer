@@ -23,6 +23,6 @@
     "IMAGES": ['.jpg', '.jpeg', '.png'],
     "EXCECUTABLES": ['.exe', '.zip', '.msi', '.gz'],
     "CORN": ['.java', '.cs', '.go', '.cpp']
-    **DELETE text if you don't want folder or this category as folder, remove the "," on the last line.
+    **DELETE** text if you don't want folder or this category as folder, remove the "," on the last line.
     _"WEB": ['.html', '.css', '.js', '.ts']_
 }</code> to make another folder name, add/remove any '.file' to your liking. Easy as that. Or remove a whole line in the dict
