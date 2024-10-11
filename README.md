@@ -1,6 +1,6 @@
 # Organize files
 
-## An easy project, easy to understand, good to test out python and get a feel for it
+## Sorting files in etc Downloads
 
 > [!TIP]
 > Check out Tim on youtube if you like python and projects like this. He is really good providing ideas you can do!
@@ -17,7 +17,7 @@
     "CODE": ['.java', '.cs', '.go', '.cpp'],
     "WEB": ['.html', '.css', '.js', '.ts']
 }</code>.
-1. Just change the names for example
+1. Just change the names for example:
 + <code>SUBDIRECTORIES = {
     "DOCUMENTS": ['.pdf', '.rtf', '.txt', '.docx', '.csv'],
     "_MUSIC_": ['.m4a', '.m4b', '.mp3'],
@@ -28,4 +28,4 @@
     **DELETE** text if you don't want folder or this category as folder, remove the "," on the last line.
     _"WEB": ['.html', '.css', '.js', '.ts']_
 }</code>
-2. make another folder name, add/remove any '.file' to your liking. Easy as that. Or remove a whole line in the dict
+2. make another folder name, add/remove any '.file' to your liking. Easy as that. Or remove a whole line in the dict.
