@@ -8,8 +8,7 @@
 > [!Note]
 > You will have to run the python file every time you want to clean up your downloads folder.
 > I have fixed the script so the base file wont be touched. Just open the python file, with the Downloads directory and run the script and see the satisfying script take all the files get sorted and appended to folders on category. If you don't have any programming experience, the const
-> <code>
-SUBDIRECTORIES = {
++ <code>SUBDIRECTORIES = {
     "DOCUMENTS": ['.pdf', '.rtf', '.txt', '.docx', '.csv'],
     "AUDIO": ['.m4a', '.m4b', '.mp3'],
     "VIDEOS": ['.mov', '.avi', '.mp4'],
@@ -18,9 +17,8 @@ SUBDIRECTORIES = {
     "CODE": ['.java', '.cs', '.go', '.cpp'],
     "WEB": ['.html', '.css', '.js', '.ts']
 }</code>.
-> Just change the names for example
-<code>
-SUBDIRECTORIES = {
+1. Just change the names for example
++ <code>SUBDIRECTORIES = {
     "DOCUMENTS": ['.pdf', '.rtf', '.txt', '.docx', '.csv'],
     "_MUSIC_": ['.m4a', '.m4b', '.mp3'],
     "_CORN_": ['.mov', _'.ogg',_ '.mp4'], **Joking**
@@ -29,4 +27,5 @@ SUBDIRECTORIES = {
     "CORN": ['.java', '.cs', '.go', '.cpp']
     **DELETE** text if you don't want folder or this category as folder, remove the "," on the last line.
     _"WEB": ['.html', '.css', '.js', '.ts']_
-}</code> to make another folder name, add/remove any '.file' to your liking. Easy as that. Or remove a whole line in the dict
+}</code>
+2. make another folder name, add/remove any '.file' to your liking. Easy as that. Or remove a whole line in the dict
